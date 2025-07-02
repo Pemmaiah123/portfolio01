@@ -1,0 +1,78 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(to right top, #fdfbfb, #ebedee);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 20px;
+}
+
+.social-icons img {
+  width: 30px;
+  margin: 0 8px;
+}
+
+@media (max-width: 768px) {
+  .profile-pic {
+    width: 90px;
+    height: 90px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+
+  .row > div {
+    margin-bottom: 20px;
+  }
+}
+
+/* Section backgrounds */
+#home {
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+}
+
+#about {
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+}
+
+#education {
+  background: linear-gradient(to right, #dbe6f6, #c5796d);
+}
+
+#projects {
+  background: linear-gradient(to right, #f9f9f9, #e0e0e0);
+}
+
+#skills {
+  background: linear-gradient(to right, #e6e9f0, #eef1f5);
+}
+
+#contact {
+  background: linear-gradient(to right, #ffffff, #e3f2fd);
+}
+
+#thankyou {
+  background: linear-gradient(to right, #fafafa, #d7e1ec);
+}
